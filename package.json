@@ -1,0 +1,28 @@
+{
+  "name": "cliff",
+  "version": "0.1.0-dev",
+  "description": "A lambda function for running Newman.",
+  "main": "index.js",
+  "dependencies": {
+    "newman": "^4.5.4"
+  },
+  "devDependencies": {
+    "archiver": "^3.1.1",
+    "aws-sdk": "^2.534.0",
+    "tmp": "^0.1.0"
+  },
+  "scripts": {
+    "deploy": "node ./scripts/deploy.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/deciphernow/cliff"
+  },
+  "keywords": [
+    "postman",
+    "lambda",
+    "newman"
+  ],
+  "author": "engineering@deciphernow.com",
+  "license": "Apache-2.0"
+}
